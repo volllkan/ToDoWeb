@@ -1,0 +1,140 @@
+ /* {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+     "MORF" 15,
+     "SHLN" 50;
+  } */
+
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    height: 100vh;
+    background: linear-gradient(
+        #211951,
+        #B47B84
+        );
+  }
+
+  .box {
+    width: 70%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 40px 40px;
+  }
+
+
+  .yenialiskanlik{
+    width: 100%;
+    position: relative;
+    background-color: aliceblue;
+    padding: 30px 25px;
+    border-radius: 4px;
+  }
+
+  .yenialiskanlik input{
+    width: 70%;
+    height: 40px;
+   border: 1px solid rgb(red, green, blue);
+   padding: 10px;
+   position: relative;
+   border-radius: 5px;
+   font-size: large;
+   font-family: "Honk", system-ui;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  }
+
+  .yenialiskanlik input:focus{
+    outline: goldenrod;
+    border-color: goldenrod;
+  }
+
+  .yenialiskanlik button{
+    position: relative;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: darkblue;
+    font-size: large;
+    font-family: "Honk", system-ui;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  }
+  .yenialiskanlik button:focus{
+    outline: none;
+    border-color: black;
+  }
+
+
+  #tag{
+  background-color: white;
+  padding: 30px 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  font-family: "Honk", system-ui;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  }
+
+
+  .liste{
+    background-color: aliceblue;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .liste span{
+    font-size: large;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  }
+
+
+  .liste button{
+    background-color: #211951;
+    color: white;
+    height: 100%;
+    width: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+
+
+  .comple {
+    text-decoration: line-through;
+  }
